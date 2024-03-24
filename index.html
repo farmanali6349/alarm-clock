@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alarm</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="set-alarm">
+        <form id="alarm-form">
+            <div>
+                <label for="hours">H</label>
+                <select name="hours" id="hours"></select>
+            </div>
+
+            <div>
+                <label for="minutes">M</label>
+                <select name="minutes" id="minutes"></select>
+            </div>
+
+            <div>
+                <label for="seconds">S</label>
+                <select name="seconds" id="seconds"></select>
+            </div>
+            
+            <div>
+                <label for="period">AM/PM</label>
+                <select name="period" id="period">
+                    <option value="AM">AM</option>
+                    <option value="PM">PM</option>
+                </select>
+            </div>
+
+            <div>
+                <input type="submit" value="submit">
+
+            </div>
+        </form>
+
+        <div class="alarms">
+            
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
